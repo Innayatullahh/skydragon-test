@@ -29,4 +29,5 @@ const meetingHistory = new mongoose.Schema({
     }
 })
 
+// Create and export the Meeting model
 module.exports = mongoose.model('Meeting', meetingHistory, 'Meetings');

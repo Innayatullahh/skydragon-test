@@ -1,17 +1,23 @@
-# React & Node.js Skill Test
+# React & Node.js CRM System
 
-## Estimated Time
+## Project Overview
+A comprehensive CRM (Customer Relationship Management) system built with React.js and Node.js, featuring contact management, lead tracking, property listings, and more.
 
-- 60 min
+## Getting Started
 
-## Requirements
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
 
-- Bug fix to login without any issues (20min) <br/>
-  There is no need to change or add login function.
-  Interpret the code structure and set the correct environment by the experience of building projects. <br/>
-  Here is a login information. <br/>
-  ✓ email: admin@gmail.com  ✓ password: admin123
+### Installation
 
-- Implement Restful API of "Meeting" in the both of server and client sides (40min)<br/>
-  Focus Code Style and Code Optimization. <br/>
-  Reference other functions.
+1. **Clone the repository**
+
+2. **Install dependencies**
+
+3. **Set up environment variables**
+
+4. **Run the development server**
+
+5. **Access the application**

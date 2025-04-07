@@ -56,8 +56,10 @@ const AddMeeting = (props) => {
                 createBy: values.createBy
             };
 
-            const response = await postApi('api/meeting/add', payload);
-            if (response?.status === 200) {
+            const response = await postApi('api/meeting', payload);
+            alert(2)
+            if (response?.data?.success === true) {
+                alert(3)
                 toast.success('Meeting added successfully');
                 fetchData()
                 formik.resetForm();
